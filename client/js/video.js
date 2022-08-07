@@ -3,7 +3,8 @@ const socket = io("/");
 const myPeer = new Peer({
   key: "peerjs",
   host: "https://video-call-eming.herokuapp.com/",
-  port: "5001",
+  port: "443",
+  path: "/video.html",
   secure: true,
 });
 
