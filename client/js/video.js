@@ -4,7 +4,7 @@ const myPeer = new Peer({
   key: "peerjs",
   host: "https://video-call-eming.herokuapp.com/",
   port: "5001",
-  //   secure: true,
+  secure: true,
 });
 
 const peers = {};
