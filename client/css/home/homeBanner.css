@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--offWhite);
+}
+
+.home__btn {
+  background-color: var(--primary);
+  color: var(--white);
+}
