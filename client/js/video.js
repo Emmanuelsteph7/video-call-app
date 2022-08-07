@@ -1,8 +1,10 @@
 const vidDiv = document.getElementById("vidDiv");
 const socket = io("/");
-const myPeer = new Peer(undefined, {
-  host: "/",
+const myPeer = new Peer({
+  key: "peerjs",
+  host: "https://video-call-eming.herokuapp.com/",
   port: "5001",
+  //   secure: true,
 });
 
 const peers = {};
